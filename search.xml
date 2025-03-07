@@ -4,11 +4,63 @@
   
     
     <entry>
+      <title>外卖领券</title>
+      <link href="/2025/03/07/waimai/"/>
+      <url>/2025/03/07/waimai/</url>
+      
+        <content type="html"><![CDATA[<h2 id="美团"><a class="markdownIt-Anchor" href="#美团"></a> 美团</h2><p><img src="https://img.zheyou.cc/PicGo/d566d68e-3963-48a2-9421-e7ac8b78d8ca.png" alt="" /></p><h2 id="饿了么"><a class="markdownIt-Anchor" href="#饿了么"></a> 饿了么</h2><h3 id="新人先领"><a class="markdownIt-Anchor" href="#新人先领"></a> 新人先领</h3><p><img src="https://img.zheyou.cc/PicGo/4cd6e088-96fa-4aa8-8fdd-a8f486fa707f.png" alt="" /></p><h3 id="每日领券"><a class="markdownIt-Anchor" href="#每日领券"></a> 每日领券</h3><p><img src="https://img.zheyou.cc/PicGo/c5871bf3-bb2e-4f66-b2f0-4d6a4be7261b.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃吃吃 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>markdown写法</title>
+      <link href="/2025/03/06/markdown/"/>
+      <url>/2025/03/06/markdown/</url>
+      
+        <content type="html"><![CDATA[<p>参考：<a href="https://blog.csdn.net/u014061630/article/details/81359144">Markdown语法图文全面详解(10分钟学会)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 外挂标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vscode配置c++开发环境</title>
       <link href="/2025/03/04/cppstart/"/>
       <url>/2025/03/04/cppstart/</url>
       
-        <content type="html"><![CDATA[<h1 id="centerfont-face仿宋-font-colororangevscode配置c开发环境fontcenter"><a class="markdownIt-Anchor" href="#centerfont-face仿宋-font-colororangevscode配置c开发环境fontcenter"></a> <center><font face="仿宋" font color=orange>vscode配置c++开发环境</font></center></h1><p><img src="https://img.zheyou.cc/PicGo/touxiang.png" alt="" /></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="centerfont-face仿宋-font-colororangevscode配置c开发环境fontcenter"><a class="markdownIt-Anchor" href="#centerfont-face仿宋-font-colororangevscode配置c开发环境fontcenter"></a> <center><font face="仿宋" font color=orange>vscode配置c++开发环境</font></center></h1><p>参考：<a href="https://www.runoob.com/cmake/cmake-tutorial.html">菜鸟教程（CMake）</a></p><h2 id="1-安装vscode"><a class="markdownIt-Anchor" href="#1-安装vscode"></a> 1. 安装vscode</h2><h2 id="2-安装c编译器"><a class="markdownIt-Anchor" href="#2-安装c编译器"></a> 2. 安装c++编译器</h2><h3 id="21-安装mingw"><a class="markdownIt-Anchor" href="#21-安装mingw"></a> 2.1 安装MinGW</h3><p><a href="https://sourceforge.net/projects/mingw/">MinGW官网</a></p><h3 id="22-安装cmake"><a class="markdownIt-Anchor" href="#22-安装cmake"></a> 2.2 安装CMake</h3><p><a href="https://cmake.org/download/">CMake官网</a></p><h2 id="3-安装vscode插件"><a class="markdownIt-Anchor" href="#3-安装vscode插件"></a> 3. 安装vscode插件</h2><h3 id="31-cc"><a class="markdownIt-Anchor" href="#31-cc"></a> 3.1 C/C++</h3><h3 id="32-cmake"><a class="markdownIt-Anchor" href="#32-cmake"></a> 3.2 CMake</h3><p><img src="https://img.zheyou.cc/PicGo/cppcmake.png" alt="" /></p><h2 id="4-构建一个简单的-cmake-项目"><a class="markdownIt-Anchor" href="#4-构建一个简单的-cmake-项目"></a> 4. 构建一个简单的 CMake 项目</h2><h3 id="方法-1使用-cmake-tools-创建新项目"><a class="markdownIt-Anchor" href="#方法-1使用-cmake-tools-创建新项目"></a> 方法 1：使用 CMake Tools 创建新项目</h3><ol><li><p>打开 VSCode，按 <strong>Ctrl+Shift+P</strong> 打开命令面板。</p></li><li><p>输入 <strong>CMake: Quick Start</strong> 并选择。</p></li><li><p>按照提示：</p><ul><li><p>输入项目名称（如 <strong>test_project</strong>）。</p></li><li><p>选择项目类型（可执行文件或库）。</p></li><li><p>选择编译器（如 GCC 或 Clang）。</p></li></ul></li><li><p>CMake Tools 会自动生成一个简单的 CMake 项目结构，包括 <strong>CMakeLists.txt</strong> 和一个示例 <strong>main.cpp</strong> 文件。</p></li></ol><h3 id="方法-2手动创建项目"><a class="markdownIt-Anchor" href="#方法-2手动创建项目"></a> 方法 2：手动创建项目</h3><ol><li><p>创建一个项目文件夹（如 <strong>test_project</strong>）。</p></li><li><p>在项目文件夹中创建以下文件：</p><ul><li><p>CMakeLists.txt：CMake 配置文件。</p></li><li><p>main.cpp：C++ 源代码文件。</p></li></ul></li></ol><p><strong>CMakeLists.txt</strong> 示例：</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.10</span>)</span><br><span class="line"><span class="keyword">project</span>(TestProject)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_STANDARD <span class="number">17</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">add_executable</span>(TestProject main.cpp)</span><br></pre></td></tr></table></figure><p><strong>main.cpp</strong> 示例：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::cout &lt;&lt; <span class="string">&quot;Hello, CMake!&quot;</span> &lt;&lt; std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="5配置cmake项目"><a class="markdownIt-Anchor" href="#5配置cmake项目"></a> 5.配置CMake项目</h2><ol><li>打开 VSCode，进入项目文件夹。</li><li>按 <strong>Ctrl+Shift+P</strong> 打开命令面板。</li><li>输入 <strong>CMake: Configure</strong> 并选择。</li><li>选择编译器（如 GCC 或 Clang）。</li><li>CMake Tools 会自动生成构建文件并配置项目。</li></ol><p>此时就会多出一个 <strong>build</strong> 文件夹和一个 <strong>output</strong> 文件夹<br /><img src="https://img.zheyou.cc/PicGo/yanshi5.png" alt="" /></p><h2 id="6-构建项目"><a class="markdownIt-Anchor" href="#6-构建项目"></a> 6. 构建项目</h2><ol><li><p>点击 VSCode 底部状态栏的 <strong>Build</strong>(或<strong>生成</strong>) 按钮（或按 <strong>Ctrl+Shift+P</strong>，输入 <strong>CMake: Build</strong> 并选择）。</p></li><li><p>CMake Tools 会编译项目，生成可执行文件（默认在 <strong>build</strong> 文件夹中）。</p></li></ol><p><img src="https://img.zheyou.cc/PicGo/yanshi1.png" alt="" /></p><h2 id="7-运行项目"><a class="markdownIt-Anchor" href="#7-运行项目"></a> 7. 运行项目</h2><ol><li><p>点击 VSCode 底部状态栏的 <strong>Run</strong>(或<strong>运行</strong>) 按钮（或按 <strong>Ctrl+Shift+P</strong>，输入 <strong>CMake: Run</strong> 并选择）。</p></li><li><p>CMake Tools 会运行生成的可执行文件，并显示输出结果。<br /><img src="https://img.zheyou.cc/PicGo/yanshi2.png" alt="" /></p></li></ol><p><em><strong>如果你没有特殊的需求，以上步骤已经可以满足你的c++编写。</strong></em></p><h2 id="8-创建调试配置"><a class="markdownIt-Anchor" href="#8-创建调试配置"></a> 8. 创建调试配置</h2><ol><li><p>点击 VSCode 左侧的调试图标（或按 <strong>Ctrl+Shift+D</strong>）。</p></li><li><p>点击 <strong>create a launch.json file</strong>。<br /><img src="https://img.zheyou.cc/PicGo/yanshi3.png" alt="" /></p></li><li><p>选择 <strong>C++ (GDB启动)</strong>。<br /><img src="https://img.zheyou.cc/PicGo/yanshi4.png" alt="" /><br />生成了<br /><img src="https://img.zheyou.cc/PicGo/yanshi6.png" alt="" /></p></li><li><p>根据需要修改生成的 <strong>launch.json</strong> 文件，例如设置工作目录、程序参数等。</p></li></ol><p>此时要进行以下修改：<br /><strong>program</strong>后面改为<code>$&#123;workspaceFolder&#125;/output/main.exe</code></p><p><strong>miDebuggerPath</strong>后面改为<code>C:/MinGW/bin/gdb.exe</code><br />一般情况下，gdb.exe的路径为<code>C:/MinGW/bin/gdb.exe</code>，如果你的MinGW安装在其他位置，请修改为正确的路径。</p><h2 id="9-调试项目"><a class="markdownIt-Anchor" href="#9-调试项目"></a> 9. 调试项目</h2><ol><li><p>在 <strong>main.cpp</strong> 中设置断点。</p></li><li><p>点击 VSCode 左侧的调试图标（或按 <strong>Ctrl+Shift+D</strong>）。</p></li><li><p>点击 <strong>Start Debugging</strong>（或按 <strong>F5</strong>）。</p></li></ol><p>程序会在断点处暂停，你可以查看变量值、调用栈等信息。</p>]]></content>
       
       
       <categories>
@@ -21,6 +73,10 @@
         <tags>
             
             <tag> c++ </tag>
+            
+            <tag> vscode </tag>
+            
+            <tag> cmake </tag>
             
         </tags>
       
